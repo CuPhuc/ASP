@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style/style.css" rel="stylesheet" />
+    <script src="../Scripts/modernizr-2.6.2.js"></script>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">        
+
+
+        <nav>
+            
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+          
+        </nav>
+        <section id="MainContent">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <aside id="Sidebar">
+            Thay đổi nền:<br />
+            <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged1">
+                <asp:ListItem>DarkGrey</asp:ListItem>
+                <asp:ListItem>Monochrome</asp:ListItem>
+            </asp:DropDownList>
+            <img src= "http://orangiausa.com/wp-content/uploads/bm/bmw-m-logo-hd-png-and-vector-download.jpg="70%" height="auto"  />
+        </aside>
+        
+    </div>
+    </form>
+</body>
+</html>

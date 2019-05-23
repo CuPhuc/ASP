@@ -1,0 +1,657 @@
+﻿body {
+  font: 30px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #c9c9c9;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header{
+  background: #353637;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #32a0c2 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #32a0c2;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 700px;
+  background:url(https://www.bmw.vn/content/dam/bmw/common/all-models/x-series/x6/2014/At%20a%20glance/topstage-start.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1489075534572.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #111111      ;
+}
+
+.img_2{
+  margin-top: 20px;
+}
+.text{
+  color: red;
+}
+.text_3{
+  font-size: 25px;
+  border: double 4px;
+  border-color: Blue;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter {
+  padding: 5px;
+  color: #ffffff;
+  background: #353637;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 35px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.left{
+  margin-left: 10px;
+
+}
+.right{
+    margin-left: 820px;
+    margin-top: -456px;
+}
+.button_1{
+  height: 38px;
+  background: #cccccc;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: red;
+}
+.text_2{
+  color: #DD0000;
+  
+}
+
+.boxes{
+  margin-top: 20px;  
+}
+.su_menh {
+	padding-left: 200px;
+
+}
+
+.boxes .box{
+  float:left;
+  text-align: left;
+  width: 30%;
+  padding: 10px;
+
+}
+/**/
+.box p {
+
+	width: 
+	
+}
+
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #32a0c2;
+  text-align: center;
+  border: double 5px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  padding: 5px;
+  
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar input, aside#sidebar textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #32a0c2;
+  
+}
+
+ul#services h3{
+  border-bottom: #353637 solid 1px;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  .boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+#logo{
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+}
+img {
+  border-radius: 50px;
+}
+p{
+  font-size: 15px;
+}
+p1{
+  font-size: 10px;
+}
+h3{
+  font-size: 30px
+}
+p2{
+  float: right;
+}
+a:nth-child(1) {
+  color: white; 
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 100px;
+}
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+   background:silver;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header{
+  background: #353637;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #32a0c2 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #32a0c2;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 700px;
+  background:url(https://images.caricos.com/b/bmw/2016_bmw_7-series/images/1920x1080/2016_bmw_7-series_1_1920x1080.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #111111      ;
+}
+
+.img_2{
+  margin-top: 20px;
+}
+.text{
+  color: red;
+}
+.text_3{
+  font-size: 25px;
+  border: double 4px;
+  border-color: Blue;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter {
+  padding: 5px;
+  color: #ffffff;
+  background: #353637;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 35px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.left{
+  margin-left: 10px;
+
+}
+.right{
+    margin-left: 820px;
+    margin-top: -456px;
+}
+.button_1{
+  height: 38px;
+  background: #cccccc;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: red;
+}
+.text_2{
+  color: #DD0000;
+  
+}
+
+#boxes{
+  margin-top: 20px;  
+}
+
+
+#boxes .box{
+  float:left;
+  text-align: left;
+  width: 30%;
+  padding: 10px;
+
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #32a0c2;
+  text-align: center;
+  border: double 5px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  padding: 5px;
+  
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar input, aside#sidebar textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #32a0c2;
+  
+}
+
+ul#services h3{
+  border-bottom: #353637 solid 1px;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+#logo{
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+}
+img {
+  border-radius: 50px;
+}
+p{
+  font-size: 25px;
+}
+p1{
+  font-size: 10px;
+}
+
+
+body{        
+  background: silver;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+				}
+			.backgr {
+				margin: 60px 20px 0 80px;      background:url("http://hoigi.net/images/hinhnenlumia/hinh-nen-lumia-520.jpg");
+				border-radius: 4px;
+				position: relative;
+				width: 480px;
+				height: 800px;
+				left: 20px;
+				float: left;
+				padding: 20px;
+				box-sizing: border-box;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+			}
+			.in_backgr {
+				position: absolute;
+				margin: auto 0;
+				display: block;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				border-radius: 4px;
+				text-align: center;
+			}
+			input[name="infor"] {
+				margin: 20px auto 0;
+				display: block;
+				outline: none;
+				border: none;
+				text-align: center;
+				font-size: 26px;
+				border-bottom: solid 1px #000;
+				background-color: transparent;
+				background-position: -200px 0;
+				width: 250px;
+				box-sizing: border-box;
+			}
+			.phuongtien {
+				margin: 10px 0 0 0;
+				width: 200px;
+				position: relative;
+				left: 140px;
+				padding: 5px;
+				box-sizing: border-box;
+				border: none;
+				border-radius: 4px;
+				background-color: rgba(109,207,246,0.3);
+			}
+			.doituong {
+				margin: 10px 0 0 0;
+				width: 200px;
+				position: relative;
+				left: 140px;
+				padding: 5px;
+				box-sizing: border-box;
+				border: none;
+				border-radius: 4px;
+				background-color: rgba(109,207,246,0.3);
+			}
+			.thanhtoan {
+				margin: 0 0 0 0;
+				width: 150px;
+				position: relative;
+				left: 164px;
+				box-sizing: border-box;
+				border: none;
+				border-radius: 4px;
+				background-color: rgba(109,207,246,0.3);
+
+			}
+            .thanhtoan p {
+                margin: 0;
+            }
+			.result {
+				margin-top: 50px;
+        font-size:30px;
+        
+			}
+			button[name="result_ok"] {
+				width: 90px;
+				height: 30px;
+				border: none;
+				border-radius: 2px;
+				background-color: #20ea22;
+				color: #fff;
+			}
+			button[name="result_cancel"] {
+				width: 90px;
+				height: 30px;
+				border: none;
+				border-radius: 2px;
+				background-color: #cc3d41;
+				color: #fff;
+			}
+			button[name="result_ok"]:hover {
+				background-color: #00ff01;
+				color: #cc3d41;
+			}
+			button[name="result_cancel"]:hover {
+				background-color: #ff0007;
+				color: #20ea22;
+			}
+			/**/
+			.backgr_2 {
+				margin: 60px 20px 0 160px;
+	background:url("http://vi.480x800-backgrounds.free-wallpaper.org/%E1%BA%A3nh/H%C3%ACnh-n%E1%BB%81n-%C4%91%E1%BA%B9p-cho-m%C3%A1y-t%C3%ADnh-%C4%91%E1%BB%83-b%C3%A0n-149.jpg");
+				opacity: 0.8;
+				border: none;
+				border-radius: 4px;
+				width: 480px;
+				height: 800px;
+				float: left;
+				padding: 20px;
+				box-sizing: border-box;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+			}
+			h3 {
+				font-size: 20px;
+			}
+            h6{
+                font: 15px;
+            }
+            .ErrorMessage {
+                 color: Red; 
+            }
